@@ -1,0 +1,35 @@
+import { Button, Navbar } from "flowbite-react";
+import "./style.css";
+import { Container } from "../../core/Grid";
+
+const NavbarComponent = () => {
+    return (
+        <div className="nav">
+            <Container>
+                <Navbar className="navbar" fluid>
+                    <Navbar.Brand href="/">
+                        <img
+                            alt="Edu React Logo"
+                            className="my-2 h-10"
+                            src="/icons/logo-edu.svg"
+                        />
+                    </Navbar.Brand>
+                    <div className="flex md:order-2">
+                        <Button className="btn-login">Masuk</Button>
+                        <Navbar.Toggle />
+                    </div>
+                    <Navbar.Collapse>
+                        <Navbar.Link active href="#">
+                            <p>Home</p>
+                        </Navbar.Link>
+                        <Navbar.Link href="#">Grow Program</Navbar.Link>
+                        {/* <Navbar.Link href="#">Tambah Wawasan</Navbar.Link> */}
+                        <Navbar.Link href="#">About</Navbar.Link>
+                    </Navbar.Collapse>
+                </Navbar>
+            </Container>
+        </div>
+    );
+};
+
+export default NavbarComponent;
