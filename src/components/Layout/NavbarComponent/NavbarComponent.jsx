@@ -24,7 +24,7 @@ const NavbarComponent = () => {
                         </Navbar.Link>
                         <Navbar.Link href="#">Grow Program</Navbar.Link>
                         {/* <Navbar.Link href="#">Tambah Wawasan</Navbar.Link> */}
-                        <Navbar.Link href="#">About</Navbar.Link>
+                        <Navbar.Link href="About">About</Navbar.Link>
                     </Navbar.Collapse>
                 </Navbar>
             </Container>
