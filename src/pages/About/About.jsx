@@ -17,8 +17,6 @@ export default function About() {
 
             <AboutCTA />
             <PartnerSection variant={"primary"} />
-
-            {/* Export Bagian Lain, contoh di Home.jsx */}
         </Fragment>
     );
 }
