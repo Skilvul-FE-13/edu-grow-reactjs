@@ -19,12 +19,12 @@ const NavbarComponent = () => {
                         <Navbar.Toggle />
                     </div>
                     <Navbar.Collapse>
-                        <Navbar.Link active href="#">
+                        <Navbar.Link active href="Home">
                             <p>Home</p>
                         </Navbar.Link>
-                        <Navbar.Link href="#">Grow Program</Navbar.Link>
+                        <Navbar.Link href="GrowProgram">Grow Program</Navbar.Link>
                         {/* <Navbar.Link href="#">Tambah Wawasan</Navbar.Link> */}
-                        <Navbar.Link href="#">About</Navbar.Link>
+                        <Navbar.Link href="About">About</Navbar.Link>
                     </Navbar.Collapse>
                 </Navbar>
             </Container>

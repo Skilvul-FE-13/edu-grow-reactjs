@@ -1,10 +1,10 @@
 import { Fragment } from "react";
 import { Helmet } from "react-helmet";
 
-const titleTag = "Login | EduGrow.id";
+const titleTag = "EduGrow.id";
 const metaDesc = "Majukan Bangsa";
 
-export default function Login() {
+export default function GrowProgram() {
     return (
         <Fragment>
             <Helmet>
