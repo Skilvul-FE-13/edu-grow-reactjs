@@ -1,4 +1,3 @@
-import { Button } from "flowbite-react";
 import "./styleAbout.css";
 
 export default function AboutReason() {
