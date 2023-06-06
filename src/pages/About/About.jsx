@@ -22,6 +22,9 @@ export default function About() {
             <AboutReason />
             <br></br>
             <AboutTim />
+            <br></br>
+            <br></br>
+            <PartnerSection variant={"secondary"} />
         </Fragment>
     );
 }
