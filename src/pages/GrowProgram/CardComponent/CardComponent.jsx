@@ -1,12 +1,12 @@
 import { Card } from 'flowbite-react';
-import { Container } from "../../core/Grid";
+import { Container } from "../../../components/core/Grid";
 import StarComponent from './StarComponent';
 
 const CardComponent = () => {
     return(
-        <div className="card mt-4 mb-10">
+        <div className="card mt-4 mb-10 max-[350px]:mx-4">
             <Container>
-        <Card className="max-w-md max-h-fit "
+        <Card className="max-w-sm max-h-fit "
   imgAlt="Meaningful alt text for an image that is not purely decorative"
   imgSrc="https://source.unsplash.com/467x232?design"
 >
