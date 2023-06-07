@@ -1,14 +1,14 @@
-import Navbar from "./components/Layout/Navbar/Navbar";
+import { Fragment } from "react";
 import Router from "./components/Router";
+import NavbarComponent from "./components/Layout/NavbarComponent/NavbarComponent";
+import FooterComponent from "./components/Layout/FooterComponent/FooterComponent";
 
 export default function App() {
     return (
-        <>
-            <Navbar />
-
-            <main className="min-h-screen pt-8">
-                <Router />
-            </main>
-        </>
+        <Fragment>
+            <NavbarComponent />
+            <Router />
+            <FooterComponent />
+        </Fragment>
     );
 }

@@ -1,0 +1,25 @@
+.font {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+
+    /* or 200% */
+    letter-spacing: 0.02em;
+
+    /* YlnMn Blue */
+    color: #3a5088;
+}
+
+.font-title {
+    font-style: bold !important;
+    font-weight: 800 !important;
+    font-size: 16px;
+    line-height: 32px;
+
+    /* or 200% */
+    letter-spacing: 0.02em;
+
+    /* YlnMn Blue */
+    color: #3a5088;
+}
