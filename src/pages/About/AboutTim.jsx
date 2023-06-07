@@ -3,8 +3,8 @@ import { Card } from "flowbite-react";
 
 export default function AboutTim() {
     return (
-        <section className="container">
-            <div className="container text-center">
+        <section className="dark:bg-gray-900 space-y-0 bg-white">
+            <div className="dark:bg-gray-900 space-y-0 bg-white">
                 <h3 className="txt-prmy-color text-center text-4xl font-extrabold">
                     Hallo Kenalan Yuk
                 </h3>
@@ -21,12 +21,13 @@ export default function AboutTim() {
             <br></br>
             <br></br>
 
-            <section className="p-2">
+            <section className="dark:bg-gray-900 space-y-0 bg-white">
                 <div className="container">
                     {/* CARD TIM */}
                     <div className="flex flex-row gap-4 text-center">
                         {/* CARD SATRIYO */}
                         <Card
+                            className=""
                             imgAlt="Satriyo Witjaksono"
                             imgSrc="/images/Satriyo-img.png"
                         >
@@ -57,7 +58,7 @@ export default function AboutTim() {
                             <p className="dark:text-gray-400 font-normal text-gray-700">
                                 <p>
                                     Here are the biggest enterprise technology
-                                    acquisitions of 2021 so far, in reverse
+                                    acquisitions of 2022 so far, in reverse
                                     chronological order.
                                 </p>
                             </p>
