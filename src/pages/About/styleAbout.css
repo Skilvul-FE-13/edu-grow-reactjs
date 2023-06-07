@@ -1,0 +1,19 @@
+.btn {
+    background-color: #3a5088 !important;
+}
+
+.btn :hover {
+    background-color: #314881 !important;
+}
+
+.partner-1 {
+    background: #3a5088;
+}
+
+.txt-scnd {
+    color: #222222;
+}
+
+.txt-prmy-color {
+    color: #3a5088;
+}
