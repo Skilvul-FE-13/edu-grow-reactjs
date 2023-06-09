@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import HomeCTA from "./HomeCTA";
 import PartnerSection from "../../components/Layout/PartnerSection/PartnerSection";
+import HomeKeuntungan from "./Keuntungan";
 
 const titleTag = "Home | EduGrow.id";
 const metaDesc = "Majukan Bangsa";
@@ -17,6 +18,7 @@ export default function Home() {
 
             <HomeCTA />
             <PartnerSection variant={"primary"} />
+            <HomeKeuntungan />
             <PartnerSection variant={"secondary"} />
         </Fragment>
     );
