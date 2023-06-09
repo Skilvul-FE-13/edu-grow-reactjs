@@ -18,8 +18,6 @@ export default function AboutTim() {
                     berkembang bersama kami.
                 </p>
             </div>
-            <br></br>
-            <br></br>
         </section>
     );
 }

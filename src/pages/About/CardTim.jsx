@@ -1,36 +1,114 @@
+import "./styleAbout.css";
 import { Card } from "flowbite-react";
-import { Container } from "../../../components/core/Grid";
-import StarComponent from "./StarComponent";
 
-const CardTim = () => {
+export default function CardTim() {
     return (
-        <div className="card mb-10 mt-4 max-[350px]:mx-4">
-            <Container>
-                <Card
-                    className="max-h-fit max-w-sm "
-                    imgAlt="Meaningful alt text for an image that is not purely decorative"
-                    imgSrc="https://source.unsplash.com/467x232?design"
-                >
+        <section className="dark:bg-gray-900 space-y-0 bg-white">
+            <div className="mx-auto grid max-w-screen-xl gap-4 px-4 py-8 lg:grid-cols-2 lg:py-16 xl:gap-0">
+                {/* Card 1 Satriyo */}
+                <Card className="size-card text-center">
+                    <div className="image-container">
+                        <img
+                            className="card-image"
+                            src="/images/Satriyo-img.png"
+                            alt="Satriyo Witjaksono"
+                        />
+                    </div>
                     <h5 className="dark:text-white text-2xl font-bold tracking-tight text-gray-900">
-                        <p>Noteworthy technology acquisitions 2021</p>
+                        <p>Satriyo Witjaksono</p>
+                    </h5>
+                    <h5 className="txt-prmy-color text-base font-normal tracking-tight">
+                        <p>Developer</p>
                     </h5>
                     <p className="dark:text-gray-400 font-normal text-gray-700">
-                        <p>Free</p>
+                        Here are the biggest enterprise technology acquisitions
+                        of 2021 so far, in reverse chronological order.
                     </p>
-                    <div className="mb-5 mt-2.5 flex items-center">
-                        <StarComponent />
-                        <StarComponent />
-                        <StarComponent />
-                        <StarComponent />
-                        <StarComponent />
-                        <span className="dark:bg-cyan-200 dark:text-cyan-800 ml-3 mr-2 rounded bg-cyan-100 px-2.5 py-0.5 text-xs font-semibold text-cyan-800">
-                            <p>5.0</p>
-                        </span>
+                    <div className="flex flex-row justify-center gap-4">
+                        <img src="/public/images/Social icon-twitter.svg" />
+                        <img src="/public/images/Social icon-linkedin.svg" />
+                        <img src="/public/images/Social icon-github.svg" />
                     </div>
                 </Card>
-            </Container>
-        </div>
-    );
-};
 
-export default CardTim;
+                {/* Card 2 Nanda */}
+                <Card className="size-card text-center">
+                    <div className="image-container">
+                        <img
+                            className="card-image"
+                            src="/images/Satriyo-img.png"
+                            alt="Satriyo Witjaksono"
+                        />
+                    </div>
+                    <h5 className="dark:text-white text-2xl font-bold tracking-tight text-gray-900">
+                        <p>Satriyo Witjaksono</p>
+                    </h5>
+                    <h5 className="txt-prmy-color text-base font-normal tracking-tight">
+                        <p>Developer</p>
+                    </h5>
+                    <p className="dark:text-gray-400 font-normal text-gray-700">
+                        Here are the biggest enterprise technology acquisitions
+                        of 2021 so far, in reverse chronological order.
+                    </p>
+                    <div className="flex flex-row justify-center gap-4">
+                        <img src="/public/images/Social icon-twitter.svg" />
+                        <img src="/public/images/Social icon-linkedin.svg" />
+                        <img src="/public/images/Social icon-github.svg" />
+                    </div>
+                </Card>
+
+                {/* Card 3 Daniel */}
+                <Card className="size-card text-center">
+                    <div className="image-container">
+                        <img
+                            className="card-image"
+                            src="/images/Satriyo-img.png"
+                            alt="Satriyo Witjaksono"
+                        />
+                    </div>
+                    <h5 className="dark:text-white text-2xl font-bold tracking-tight text-gray-900">
+                        <p>Satriyo Witjaksono</p>
+                    </h5>
+                    <h5 className="txt-prmy-color text-base font-normal tracking-tight">
+                        <p>Developer</p>
+                    </h5>
+                    <p className="dark:text-gray-400 font-normal text-gray-700">
+                        Here are the biggest enterprise technology acquisitions
+                        of 2021 so far, in reverse chronological order.
+                    </p>
+                    <div className="flex flex-row justify-center gap-4">
+                        <img src="/public/images/Social icon-twitter.svg" />
+                        <img src="/public/images/Social icon-linkedin.svg" />
+                        <img src="/public/images/Social icon-github.svg" />
+                    </div>
+                </Card>
+
+                {/* Card 4 Maya */}
+                <Card className="size-card text-center">
+                    <div className="image-container">
+                        <img
+                            className="card-image"
+                            src="/images/Satriyo-img.png"
+                            alt="Satriyo Witjaksono"
+                        />
+                    </div>
+                    <h5 className="dark:text-white text-2xl font-bold tracking-tight text-gray-900">
+                        <p>Satriyo Witjaksono</p>
+                    </h5>
+                    <h5 className="txt-prmy-color text-base font-normal tracking-tight">
+                        <p>Developer</p>
+                    </h5>
+                    <p className="dark:text-gray-400 font-normal text-gray-700">
+                        Here are the biggest enterprise technology acquisitions
+                        of 2021 so far, in reverse chronological order.
+                    </p>
+                    <div className="flex flex-row justify-center gap-4">
+                        <img src="/public/images/Social icon-twitter.svg" />
+                        <img src="/public/images/Social icon-linkedin.svg" />
+                        <img src="/public/images/Social icon-github.svg" />
+                    </div>
+                </Card>
+            </div>
+        </section>
+    );
+}
