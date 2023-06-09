@@ -4,7 +4,7 @@ import { Card } from "flowbite-react";
 export default function CardTim() {
     return (
         <section className="dark:bg-gray-900 space-y-0 bg-white">
-            <div className="mx-auto grid max-w-screen-xl gap-4 px-4 py-8 lg:grid-cols-2 lg:py-16 xl:gap-0">
+            <div className="py-34 lg:py-34 mx-auto grid max-w-screen-xl gap-4 px-4 lg:grid-cols-2 xl:gap-6">
                 {/* Card 1 Satriyo */}
                 <Card className="size-card text-center">
                     <div className="image-container">
@@ -36,12 +36,12 @@ export default function CardTim() {
                     <div className="image-container">
                         <img
                             className="card-image"
-                            src="/images/Satriyo-img.png"
-                            alt="Satriyo Witjaksono"
+                            src="/images/nanda-img.png"
+                            alt="Nanda Satria Putra"
                         />
                     </div>
                     <h5 className="dark:text-white text-2xl font-bold tracking-tight text-gray-900">
-                        <p>Satriyo Witjaksono</p>
+                        <p>Nanda Satria Putra</p>
                     </h5>
                     <h5 className="txt-prmy-color text-base font-normal tracking-tight">
                         <p>Developer</p>
@@ -62,12 +62,12 @@ export default function CardTim() {
                     <div className="image-container">
                         <img
                             className="card-image"
-                            src="/images/Satriyo-img.png"
-                            alt="Satriyo Witjaksono"
+                            src="/images/daniel-img.png"
+                            alt="Daniel Ryan Simatupang"
                         />
                     </div>
                     <h5 className="dark:text-white text-2xl font-bold tracking-tight text-gray-900">
-                        <p>Satriyo Witjaksono</p>
+                        <p>Daniel Ryan Simatupang</p>
                     </h5>
                     <h5 className="txt-prmy-color text-base font-normal tracking-tight">
                         <p>Developer</p>
@@ -88,12 +88,12 @@ export default function CardTim() {
                     <div className="image-container">
                         <img
                             className="card-image"
-                            src="/images/Satriyo-img.png"
-                            alt="Satriyo Witjaksono"
+                            src="/images/maya-img.png"
+                            alt="Maya Aulia Dwi Nur Cahyani"
                         />
                     </div>
                     <h5 className="dark:text-white text-2xl font-bold tracking-tight text-gray-900">
-                        <p>Satriyo Witjaksono</p>
+                        <p>Maya Aulia Dwi Nur Cahyani</p>
                     </h5>
                     <h5 className="txt-prmy-color text-base font-normal tracking-tight">
                         <p>Developer</p>
