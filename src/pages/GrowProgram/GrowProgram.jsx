@@ -1,7 +1,6 @@
 import { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import PartnerSection from "../../components/Layout/PartnerSection/PartnerSection";
-// import CardComponent from "./CardComponent/CardComponent";
 import { Container } from "../../components/core/Grid";
 import "./style.css";
 import KelasCard from "../KelasPage/KelasCard";
@@ -31,7 +30,6 @@ export default function GrowProgram() {
                     </p>
                 </section>
             </Container>
-            {/* <CardComponent/> */}
 
             <KelasCard />
             <PartnerSection variant={"secondary"} />
