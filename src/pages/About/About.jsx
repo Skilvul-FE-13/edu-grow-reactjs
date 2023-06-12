@@ -1,5 +1,10 @@
 import { Fragment } from "react";
 import { Helmet } from "react-helmet";
+import AboutCTA from "./AboutCTA";
+import PartnerSection from "../../components/Layout/PartnerSection/PartnerSection";
+import AboutReason from "./AboutReason";
+import AboutTim from "./AboutTim";
+import CardTim from "./CardTim";
 
 const titleTag = "About | EduGrow.id";
 const metaDesc = "Majukan Bangsa";
@@ -13,7 +18,15 @@ export default function About() {
                 <meta name="description" content={metaDesc} />
             </Helmet>
 
-            {/* Export Bagian Lain, contoh di Home.jsx */}
+            <AboutCTA />
+            <PartnerSection variant={"primary"} />
+            <AboutReason />
+            <br></br>
+            <AboutTim />
+            <br></br>
+            <CardTim />
+            <br></br>
+            <PartnerSection variant={"secondary"} />
         </Fragment>
     );
 }
