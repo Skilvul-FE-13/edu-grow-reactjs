@@ -30,8 +30,8 @@ export default function GrowProgram() {
                     </p>
                 </section>
             </Container>
-
             <KelasCard />
+
             <PartnerSection variant={"secondary"} />
         </Fragment>
     );
