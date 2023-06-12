@@ -13,3 +13,29 @@
 .txt-prmy {
     color: #3a5088;
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    width: 84px;
+    height: 84px;
+}
+
+.size-card {
+    align-items: center;
+    width: 362px;
+    height: 365px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
