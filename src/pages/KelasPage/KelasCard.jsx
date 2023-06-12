@@ -14,6 +14,7 @@ const KelasCard = () => {
                     "https://api.buttercms.com/v2/posts/?auth_token=47e82c102e338fa635bbcef4504fa2b7ebd8103f"
                 );
                 const data = await response.json();
+                // console.log(data)
                 setKelasList(data.data);
                 console.log(setKelasList)
             } catch (error) {
@@ -58,7 +59,7 @@ const KelasCard = () => {
   </div>
     <Link
                                 to={`/kelas/${kelas.slug}`}
-                                className=" rounded-lg bg-[#3A5088] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#C8D4E4] hover:text-black focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
+                                className="rounded-lg bg-[#3A5088] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#C8D4E4] hover:text-black focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                             >
                                 Pilih
                             </Link>
