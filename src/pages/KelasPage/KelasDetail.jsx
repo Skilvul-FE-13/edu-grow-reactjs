@@ -4,6 +4,8 @@ import { Container } from "../../components/core/Grid";
 import "./style.css";
 import { Link } from "react-router-dom";
 import ContentCard from '../../components/Layout/CardComponent/ContentCard';
+import ToolsCard from "../../components/Layout/CardComponent/ToolsCard";
+import QuestionCard from "../../components/Layout/CardComponent/QuestionCard";
 
 const KelasDetail = () => {
     const { slug } = useParams();
@@ -56,8 +58,10 @@ const KelasDetail = () => {
                             
                 </div>
                 <Container>
-
             <div className="mx-0 my-12 max-[350px]:mx-4">
+                <div className="flex flex-row gap-4 max-[1024px]:flex-col">
+
+            <div className="left-content">
             <h1 className="sub-title my-10 text-2xl font-semibold">Deskripsi Course</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus modi debitis blanditiis obcaecati eum ipsam dolore commodi sed vel eius fugit nulla illum illo quae fugiat natus culpa labore sint qui, explicabo itaque in consequatur veniam. Tempora repudiandae explicabo natus hic molestiae, accusantium, magnam dolor voluptas dolores in asperiores soluta.</p>
             <h1 className="sub-title my-10 text-2xl font-semibold">Point Utama</h1>
@@ -67,8 +71,26 @@ const KelasDetail = () => {
 </svg>
 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, fugit.</p>
             </div>
+    </div>
+    <div className="right-content">
             <h1 className="sub-title my-10 text-2xl font-semibold">Konten Kelas</h1>
             <ContentCard />
+            <h1 className="sub-title my-10 text-2xl font-semibold">Tools Pendukung</h1>
+            <div className="tools flex gap-4">
+
+            <ToolsCard />
+            <ToolsCard />
+            </div>
+
+    </div>
+                </div>
+                <div className="quetion mt-20">
+
+            <p className="text-[#3A5088] text-center font-semibold">Mari Bertanya!</p>
+            <h1 className="mt-4 text-center font-black text-4xl">Frequently </h1>
+            <h1 className="mt-2 mb-6 text-center font-extrabold text-4xl">Asked Question</h1>
+                <QuestionCard />
+                </div>
 
             {/* {setKelas.map((e)=>(
                <div key={e.slug}>
