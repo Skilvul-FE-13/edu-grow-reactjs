@@ -2,13 +2,13 @@ import "./styleDescKelas.css";
 
 export default function DeskripsiKelasCTA() {
     return (
-        <section className="g-stone-50 pb-20 pt-20">
+        <section className="pb-32 pt-16">
             <div className="text-center">
                 <h3 className="text-base font-medium">Mari Bertanya!</h3>
                 <h1 className="text-3xl font-bold">Frequently Asked</h1>
                 <h1 className="text-3xl font-bold">Question</h1>
             </div>
-            <div className="grid h-56 grid-cols-2 content-start justify-items-center gap-4">
+            <div className="grid h-56 grid-cols-2 content-start justify-items-center gap-6 pt-12">
                 <div className="box-content flex h-6 w-3/4 justify-between rounded border-4 border-none bg-white p-4 shadow-md">
                     <p>Apakah seorang pemula bisa ikut belajar?</p>
                     <img src="/images/plus.png" />
