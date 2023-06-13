@@ -7,11 +7,11 @@ export default function ReasonCard() {
             <div className="mx-auto max-w-screen-xl px-4 py-4">
                 <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
                     {/* Card 1 Mudah */}
-                    <Card className="size-card flex items-start text-center">
+                    <Card className="size-card flex items-start ">
                         <div className="image-container">
                             <img
                                 className="card-image"
-                                src="/images/Satriyo-img.png"
+                                src="/images/card-home-sun.png"
                                 alt="Satriyo Witjaksono"
                             />
                         </div>
@@ -20,9 +20,10 @@ export default function ReasonCard() {
                                 Mudah
                             </h5>
                             <p className="dark:text-gray-400 font-normal text-gray-700">
-                                Here are the biggest enterprise technology
-                                acquisitions of 2021 so far, in reverse
-                                chronological order.
+                                Kemampuan kamu masih nol? Tenang, kamu akan
+                                mendapat skill yang akan dibimbing oleh para
+                                ahli yang sudah berpengalaman di bidangnya
+                                sampai bisa.
                             </p>
                         </div>
                     </Card>
@@ -31,8 +32,8 @@ export default function ReasonCard() {
                     <Card className="size-card flex items-start text-center">
                         <div className="image-container">
                             <img
-                                className="card-image"
-                                src="/images/Satriyo-img.png"
+                                className="card-image justify-items-start"
+                                src="/images/card-home-sertif.png"
                                 alt="Satriyo Witjaksono"
                             />
                         </div>
@@ -41,9 +42,10 @@ export default function ReasonCard() {
                                 Sertifikat
                             </h5>
                             <p className="dark:text-gray-400 font-normal text-gray-700">
-                                Here are the biggest enterprise technology
-                                acquisitions of 2021 so far, in reverse
-                                chronological order.
+                                Setelah lulus belajar, kamu akan mendapat
+                                sertifikat kelulusan sebagai bukti eligtabilitas
+                                yang bisa kamu gunakan untuk mempermudah
+                                mendapat pekerjaan.
                             </p>
                         </div>
                     </Card>
@@ -52,8 +54,8 @@ export default function ReasonCard() {
                     <Card className="size-card flex items-start text-center">
                         <div className="image-container">
                             <img
-                                className="card-image"
-                                src="/images/Satriyo-img.png"
+                                className="card-image justify-items-start"
+                                src="/images/card-home-exp.png"
                                 alt="Satriyo Witjaksono"
                             />
                         </div>
@@ -62,9 +64,9 @@ export default function ReasonCard() {
                                 Experience
                             </h5>
                             <p className="dark:text-gray-400 font-normal text-gray-700">
-                                Here are the biggest enterprise technology
-                                acquisitions of 2021 so far, in reverse
-                                chronological order.
+                                Selama mengikuti program EduGrow, kamu akan
+                                mendapat pengalaman yang bisa bermanfaat untuk
+                                meningkatkan hard skill maupun soft skill kamu.
                             </p>
                         </div>
                     </Card>

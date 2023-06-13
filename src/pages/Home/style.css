@@ -30,12 +30,11 @@
 }
 
 .size-card {
-    align-items: center;
     width: 362px;
     height: 365px;
 }
 
 .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
 }
