@@ -20,7 +20,6 @@ export default function Home() {
 
             <HomeCTA />
             <PartnerSection variant={"primary"} />
-            <ReasonTitle />
             <ReasonCard />
             <HomeKeuntungan />
             <PartnerSection variant={"secondary"} />
