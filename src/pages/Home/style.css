@@ -14,6 +14,10 @@
     color: #3a5088;
 }
 
+.txt-scnd {
+    color: #222222;
+}
+
 .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

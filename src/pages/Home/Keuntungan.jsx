@@ -12,7 +12,7 @@ export default function HomeKeuntungan() {
                     <h1 className="txt-prmy text-2xl font-semibold">
                         You Deserve Better Career
                     </h1>
-                    <h1 className="dark:text-white mb-4 text-5xl font-extrabold leading-none leading-tight tracking-tight">
+                    <h1 className="txt-scnd mb-4 text-5xl font-extrabold leading-none leading-tight tracking-tight">
                         Keuntungan Yang Kamu Dapatkan Untuk Tumbuh
                     </h1>
                     <section className="flex flex-col gap-4">

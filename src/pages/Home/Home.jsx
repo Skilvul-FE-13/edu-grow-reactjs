@@ -4,7 +4,6 @@ import HomeCTA from "./HomeCTA";
 import PartnerSection from "../../components/Layout/PartnerSection/PartnerSection";
 import HomeKeuntungan from "./Keuntungan";
 import ReasonCard from "./ReasonCard";
-import ReasonTitle from "./ReasonTitle";
 
 const titleTag = "Home | EduGrow.id";
 const metaDesc = "Majukan Bangsa";
