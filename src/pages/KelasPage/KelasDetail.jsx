@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import ContentCard from '../../components/Layout/CardComponent/ContentCard';
 import ToolsCard from "../../components/Layout/CardComponent/ToolsCard";
 import QuestionCard from "../../components/Layout/CardComponent/QuestionCard";
+import DescriptionList from "../../components/Layout/DetailClassSection/DescriptionList";
+
 
 const KelasDetail = () => {
     const { slug } = useParams();
@@ -48,10 +50,11 @@ const KelasDetail = () => {
                 <div className="header-section absolute top-1/2 left-1/4 -translate-x-1/2 -translate-y-1/2">
                 <h1 className="font-semibold text-[40px]">{title}</h1>
                 <p className="font-normal text-sm">Dari yang awam bisa jadi ahli buat bikin produk digital keren</p>
-                <p className="font-normal text-sm mb-4">Gabung kelasnya dan nikmati serunya pengalaman belajar di EduGrow</p>
+               <DescriptionList />
+                <p className="font-normal text-sm mb-6">Gabung kelasnya dan nikmati serunya pengalaman belajar di EduGrow</p>
             <Link
                                 to={`/kelas/${kelas.slug}`}
-                                className="rounded-lg bg-[#C8D4E4] px-5 py-2.5 text-center text-sm font- hover:bg-[#d1dbe7] text-black focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
+                                className="rounded-lg bg-[#C8D4E4] px-5 py-2.5 text-center text-sm font-semibold hover:bg-[#d1dbe7] text-black focus:outline-none focus:ring-4 focus:ring-cyan-300 dark:bg-cyan-600 dark:hover:bg-cyan-700 dark:focus:ring-cyan-800"
                             >
                                Gabung Sekarang
                             </Link>
@@ -59,7 +62,7 @@ const KelasDetail = () => {
                 </div>
                 <Container>
             <div className="mx-0 my-12 max-[350px]:mx-4">
-                <div className="flex flex-row gap-4 max-[1024px]:flex-col">
+                <div className="content-desc flex flex-col gap-4 xl:flex-row lg:flex-col md:flex-col">
 
             <div className="left-content">
             <h1 className="sub-title my-10 text-2xl font-semibold">Deskripsi Course</h1>
@@ -76,10 +79,10 @@ const KelasDetail = () => {
             <h1 className="sub-title my-10 text-2xl font-semibold">Konten Kelas</h1>
             <ContentCard />
             <h1 className="sub-title my-10 text-2xl font-semibold">Tools Pendukung</h1>
-            <div className="tools flex gap-4">
+            <ToolsCard />
+            <div className="tools">
 
-            <ToolsCard />
-            <ToolsCard />
+            
             </div>
 
     </div>
