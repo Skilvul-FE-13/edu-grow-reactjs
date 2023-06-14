@@ -44,6 +44,21 @@ export default function TestimoniSection() {
                                 pekerjaan yang layak. Thanks, EduGrow!~
                             </p>
                         </div>
+                        <div className="flex flex-row items-center gap-4">
+                            <img
+                                src="/images/profil-testi-1.png"
+                                alt="Profil testimoni 1"
+                            />
+                            <div className="flex flex-col">
+                                <h1 className="txt-scnd font-semibold ">
+                                    Muhammad Rendy Azri{" "}
+                                </h1>
+                                <p className="text-gray-500">UI/UX Designer</p>
+                                <p className="text-gray-500">
+                                    UI Designer at bank BCA
+                                </p>
+                            </div>
+                        </div>
                     </Card>
 
                     {/* Card 2 */}
@@ -70,6 +85,21 @@ export default function TestimoniSection() {
                                 untuk pengembangan diri sudah tersedia.
                             </p>
                         </div>
+                        <div className="flex flex-row items-center gap-4">
+                            <img
+                                src="/images/profil-testi-2.png"
+                                alt="Profil testimoni 2"
+                            />
+                            <div className="flex flex-col">
+                                <h1 className="txt-scnd font-semibold ">
+                                    Zaky Tri Nugroho
+                                </h1>
+                                <p className="text-gray-500">Full stack web</p>
+                                <p className="text-gray-500">
+                                    Senior Software Enginer at bank Mandiri
+                                </p>
+                            </div>
+                        </div>
                     </Card>
 
                     {/* Card 3 */}
@@ -95,6 +125,21 @@ export default function TestimoniSection() {
                                 teman-teman yang tertarol dengan dunia UI/UX
                                 Design.
                             </p>
+                        </div>
+                        <div className="flex flex-row items-center gap-4">
+                            <img
+                                src="/images/profil-testi-3.png"
+                                alt="Profil testimoni 3"
+                            />
+                            <div className="flex flex-col">
+                                <h1 className="txt-scnd font-semibold ">
+                                    Muhammad Rendy Azri{" "}
+                                </h1>
+                                <p className="text-gray-500">UI/UX Designer</p>
+                                <p className="text-gray-500">
+                                    UX Designer at Google
+                                </p>
+                            </div>
                         </div>
                     </Card>
                 </div>
