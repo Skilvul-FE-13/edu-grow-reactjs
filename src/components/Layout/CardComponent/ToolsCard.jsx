@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export default function toolsCard() {
   return (
-    <div className="flex flex-col gap-4 sm:flex-row">
+    <div className="flex flex-col gap-4 sm:flex-row max-sm:pl-9">
     <Card className="w-[255px] h-[348px] "
   imgAlt="Meaningful alt text for an image that is not purely decorative"
   imgSrc="https://source.unsplash.com/467x232?design"
