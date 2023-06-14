@@ -42,3 +42,8 @@
     display: flex;
     justify-content: start;
 }
+
+.size-card-testi {
+    width: 380px;
+    height: 534px;
+}

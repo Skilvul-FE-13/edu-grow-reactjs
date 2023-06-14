@@ -4,6 +4,7 @@ import HomeCTA from "./HomeCTA";
 import PartnerSection from "../../components/Layout/PartnerSection/PartnerSection";
 import HomeKeuntungan from "./Keuntungan";
 import ReasonCard from "./ReasonCard";
+import TestimoniSection from "./TestimoniSection";
 
 const titleTag = "Home | EduGrow.id";
 const metaDesc = "Majukan Bangsa";
@@ -21,6 +22,7 @@ export default function Home() {
             <PartnerSection variant={"primary"} />
             <ReasonCard />
             <HomeKeuntungan />
+            <TestimoniSection />
             <PartnerSection variant={"secondary"} />
         </Fragment>
     );
