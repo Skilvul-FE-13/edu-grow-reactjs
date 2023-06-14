@@ -23,6 +23,29 @@ export default function KontenKelas() {
                         membuat UI Style Guide sederhana, serta berbagai fitur
                         yang ada di Figma seperti Auto Layout dan Layout Grid
                     </p>
+
+                    <h1 className="pb-4 pt-8 text-xl font-semibold text-blue-900">
+                        Point Utama
+                    </h1>
+                    <div className="flex gap-8 pb-4">
+                        <img src="/images/check.png" />
+                        <p>Mengenal tools Whimsical dan Figma</p>
+                    </div>
+                    <div className="flex gap-8 pb-4">
+                        <img src="/images/check.png" />
+                        <p>
+                            Belajar mengeai style guide, layout grid dan auto
+                            layout di Figma
+                        </p>
+                    </div>
+                    <div className="flex gap-8 pb-4">
+                        <img src="/images/check.png" />
+                        <p>Mengetahui langkah-langkah membuat UI design</p>
+                    </div>
+                    <div className="flex gap-8 pb-4">
+                        <img src="/images/check.png" />
+                        <p>Praktek membuat UI design Website</p>
+                    </div>
                 </div>
                 <div className="w-64 flex-1">
                     <h1 className="pb-4 text-xl font-semibold text-blue-900">
