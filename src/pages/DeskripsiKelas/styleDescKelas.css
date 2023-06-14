@@ -1,0 +1,15 @@
+.btn-join {
+    background-color: #c8d4e4 !important;
+    color: #1f2933 !important;
+}
+
+.btn-join :hover {
+    background-color: #c8d4e4 !important;
+    color: #1f2933 !important;
+}
+
+.btn-downl {
+    background-color: white !important;
+    color: #3a5088 !important;
+    border: 2px solid #3a5088 !important;
+}
