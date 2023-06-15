@@ -1,10 +1,11 @@
 import { Fragment } from "react";
 import { Helmet } from "react-helmet";
+import LoginForm from "./LoginForm";
 
-const titleTag = "KelasPage | EduGrow.id";
+const titleTag = "Login | EduGrow.id";
 const metaDesc = "Majukan Bangsa";
 
-export default function KelasPage() {
+export default function Login() {
     return (
         <Fragment>
             <Helmet>
@@ -13,7 +14,7 @@ export default function KelasPage() {
                 <meta name="description" content={metaDesc} />
             </Helmet>
 
-            {/* Export Bagian Lain, contoh di Home.jsx */}
+            <LoginForm />
         </Fragment>
     );
 }

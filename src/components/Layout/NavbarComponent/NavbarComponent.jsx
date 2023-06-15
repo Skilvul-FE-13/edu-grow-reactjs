@@ -15,7 +15,9 @@ const NavbarComponent = () => {
                         />
                     </Navbar.Brand>
                     <div className="flex md:order-2">
-                        <Button className="btn-login">Masuk</Button>
+                        <Button href="/login" className="btn-login">
+                            Masuk
+                        </Button>
                         <Navbar.Toggle />
                     </div>
                     <Navbar.Collapse>
@@ -26,7 +28,9 @@ const NavbarComponent = () => {
                             Grow Program
                         </Navbar.Link>
                         <Navbar.Link href="/about">About</Navbar.Link>
-                        <Navbar.Link href="/kelas-online">Kelas Online</Navbar.Link>
+                        <Navbar.Link href="/kelas-online">
+                            Kelas Online
+                        </Navbar.Link>
                     </Navbar.Collapse>
                 </Navbar>
             </Container>

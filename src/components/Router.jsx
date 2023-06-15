@@ -4,6 +4,7 @@ import About from "../pages/About/About";
 import KelasDetail from "../pages/KelasPage/KelasDetail";
 import GrowProgram from "../pages/GrowProgram/GrowProgram";
 import KelasOnline from "../pages/KelasPage/KelasOnline";
+import Login from "../pages/Login/Login";
 export default function Router() {
     return (
         <Routes>
@@ -12,6 +13,8 @@ export default function Router() {
             <Route path="/kelas/:slug" element={<KelasDetail />} />
             <Route path="/grow-program" element={<GrowProgram />} />
             <Route path="/kelas-online" element={<KelasOnline />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<KelasOnline />} />
         </Routes>
     );
 }
