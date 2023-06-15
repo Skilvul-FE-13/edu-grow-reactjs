@@ -1,116 +1,186 @@
-'use client';
+"use client";
 
-import { Accordion } from 'flowbite-react';
+import { Accordion } from "flowbite-react";
 
-export default function CollapseAll() {
-  return (
-    <Accordion collapseAll>
-      <Accordion.Panel>
-        <Accordion.Title>
-          What is Flowbite?
-        </Accordion.Title>
-        <Accordion.Content>
-          <p className="mb-2 text-gray-500 dark:text-gray-400">
-            <p>
-              Flowbite is an open-source library of interactive components built on top of Tailwind CSS including buttons,
-              dropdowns, modals, navbars, and more.
-            </p>
-          </p>
-          <p className="text-gray-500 dark:text-gray-400">
-            <p>
-              Check out this guide to learn 
-            </p>
-            <a
-              className="text-cyan-600 hover:underline dark:text-cyan-500"
-              href="https://flowbite.com/docs/getting-started/introduction/"
-            >
-              <p>
-                get started
-              </p>
-            </a>
-            <p>
-              and start developing websites even faster with components on top of Tailwind CSS.
-            </p>
-          </p>
-        </Accordion.Content>
-      </Accordion.Panel>
-      <Accordion.Panel>
-        <Accordion.Title>
-          Is there a Figma file available?
-        </Accordion.Title>
-        <Accordion.Content>
-          <p className="mb-2 text-gray-500 dark:text-gray-400">
-            <p>
-              Flowbite is first conceptualized and designed using the Figma software so everything you see in the library
-              has a design equivalent in our Figma file.
-            </p>
-          </p>
-          <p className="text-gray-500 dark:text-gray-400">
-            <p>
-              Check out the
-            </p>
-            <a
-              className="text-cyan-600 hover:underline dark:text-cyan-500"
-              href="https://flowbite.com/figma/"
-            >
-              <p>
-                Figma design system
-              </p>
-            </a>
-            <p>
-              based on the utility classes from Tailwind CSS and components from Flowbite.
-            </p>
-          </p>
-        </Accordion.Content>
-      </Accordion.Panel>
-      <Accordion.Panel>
-        <Accordion.Title>
-          What are the differences between Flowbite and Tailwind UI?
-        </Accordion.Title>
-        <Accordion.Content>
-          <p className="mb-2 text-gray-500 dark:text-gray-400">
-            <p>
-              The main difference is that the core components from Flowbite are open source under the MIT license, whereas
-              Tailwind UI is a paid product. Another difference is that Flowbite relies on smaller and standalone
-              components, whereas Tailwind UI offers sections of pages.
-            </p>
-          </p>
-          <p className="mb-2 text-gray-500 dark:text-gray-400">
-            <p>
-              However, we actually recommend using both Flowbite, Flowbite Pro, and even Tailwind UI as there is no
-              technical reason stopping you from using the best of two worlds.
-            </p>
-          </p>
-          <p className="mb-2 text-gray-500 dark:text-gray-400">
-            Learn more about these technologies:
-          </p>
-          <ul className="list-disc pl-5 text-gray-500 dark:text-gray-400">
-            <li>
-              <a
-                className="text-cyan-600 hover:underline dark:text-cyan-500"
-                href="https://flowbite.com/pro/"
-              >
-                <p>
-                  Flowbite Pro
-                </p>
-              </a>
-            </li>
-            <li>
-              <a
-                className="text-cyan-600 hover:underline dark:text-cyan-500"
-                href="https://tailwindui.com/"
-                rel="nofollow"
-              >
-                <p>
-                  Tailwind UI
-                </p>
-              </a>
-            </li>
-          </ul>
-        </Accordion.Content>
-      </Accordion.Panel>
-    </Accordion>
-  )
+export default function ContentCard() {
+    return (
+        <Accordion collapseAll className="bg-white">
+            <Accordion.Panel>
+                <Accordion.Title>Intro UI/UX</Accordion.Title>
+                <Accordion.Content>
+                    <p className="dark:text-gray-400 mb-2 text-black">
+                        <div className="flex justify-between">
+                            <div className="videos flex gap-2">
+                                <div className="h-[30px] w-[30px] rounded-full border-2 bg-white pl-[2px] pt-[2px]">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={1.5}
+                                        stroke="currentColor"
+                                        className="h-6 w-6"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+                                        />
+                                    </svg>
+                                </div>
+                                <p className="mt-1 font-semibold">
+                                    Project overview, pengenalan UI/UX...
+                                </p>
+                            </div>
+                            <p className="font-semibold">1:00</p>
+                        </div>
+                    </p>
+                    <p className="dark:text-gray-400 text-black mt-4">
+                        <div className="flex justify-between">
+                            <div className="videos flex gap-2">
+                                <div className="h-[30px] w-[30px] rounded-full border-2 bg-white pl-[2px] pt-[2px]">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={1.5}
+                                        stroke="currentColor"
+                                        className="h-6 w-6"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+                                        />
+                                    </svg>
+                                </div>
+                                <p className="mt-1 font-semibold">
+                                Menentukan Tema Design
+                                </p>
+                            </div>
+                            <p className="font-semibold">3:00</p>
+                        </div>
+                    </p>
+                </Accordion.Content>
+            </Accordion.Panel>
+            <Accordion.Panel>
+                <Accordion.Title>
+                Praktik UI/UX
+                </Accordion.Title>
+                <Accordion.Content>
+                    <p className="dark:text-gray-400 mb-2 text-black">
+                        <div className="flex justify-between">
+                            <div className="videos flex gap-2">
+                                <div className="h-[30px] w-[30px] rounded-full border-2 bg-white pl-[2px] pt-[2px]">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={1.5}
+                                        stroke="currentColor"
+                                        className="h-6 w-6"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+                                        />
+                                    </svg>
+                                </div>
+                                <p className="mt-1 font-semibold">
+                                    User Flow
+                                </p>
+                            </div>
+                            <p className="font-semibold">2:00</p>
+                        </div>
+                    </p>
+                    <p className="dark:text-gray-400 text-black mt-4">
+                        <div className="flex justify-between">
+                            <div className="videos flex gap-2">
+                                <div className="h-[30px] w-[30px] rounded-full border-2 bg-white pl-[2px] pt-[2px]">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={1.5}
+                                        stroke="currentColor"
+                                        className="h-6 w-6"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+                                        />
+                                    </svg>
+                                </div>
+                                <p className="mt-1 font-semibold">
+                                Wireframe
+                                </p>
+                            </div>
+                            <p className="font-semibold">10:00</p>
+                        </div>
+                    </p>
+                    <p className="dark:text-gray-400 text-black mt-4">
+                        <div className="flex justify-between">
+                            <div className="videos flex gap-2">
+                                <div className="h-[30px] w-[30px] rounded-full border-2 bg-white pl-[2px] pt-[2px]">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={1.5}
+                                        stroke="currentColor"
+                                        className="h-6 w-6"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+                                        />
+                                    </svg>
+                                </div>
+                                <p className="mt-1 font-semibold">
+                               UI Desain
+                                </p>
+                            </div>
+                            <p className="font-semibold">15:00</p>
+                        </div>
+                    </p>
+                </Accordion.Content>
+            </Accordion.Panel>
+            <Accordion.Panel>
+                <Accordion.Title>
+                    Closing UI/UX
+                </Accordion.Title>
+                <Accordion.Content>
+                    <p className="dark:text-gray-400 text-black mt-4">
+                        <div className="flex justify-between">
+                            <div className="videos flex gap-2">
+                                <div className="h-[30px] w-[30px] rounded-full border-2 bg-white pl-[2px] pt-[2px]">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={1.5}
+                                        stroke="currentColor"
+                                        className="h-6 w-6"
+                                    >
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z"
+                                        />
+                                    </svg>
+                                </div>
+                                <p className="mt-1 font-semibold">
+                                Prototyping
+                                </p>
+                            </div>
+                            <p className="font-semibold">10:00</p>
+                        </div>
+                    </p>
+                   
+                </Accordion.Content>
+            </Accordion.Panel>
+        </Accordion>
+    );
 }
-
-

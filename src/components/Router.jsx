@@ -3,7 +3,7 @@ import Home from "../pages/Home/Home";
 import About from "../pages/About/About";
 import KelasDetail from "../pages/KelasPage/KelasDetail";
 import GrowProgram from "../pages/GrowProgram/GrowProgram";
-import DeskripsiKelas from "../pages/DeskripsiKelas/DeskripsiKelas";
+import KelasOnline from "../pages/KelasPage/KelasOnline";
 export default function Router() {
     return (
         <Routes>
@@ -11,7 +11,7 @@ export default function Router() {
             <Route path="/about" element={<About />} />
             <Route path="/kelas/:slug" element={<KelasDetail />} />
             <Route path="/grow-program" element={<GrowProgram />} />
-            <Route path="/deskripsi-kelas" element={<DeskripsiKelas />} />
+            <Route path="/kelas-online" element={<KelasOnline />} />
         </Routes>
     );
 }
