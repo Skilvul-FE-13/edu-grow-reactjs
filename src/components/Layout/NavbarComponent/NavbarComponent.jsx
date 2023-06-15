@@ -25,10 +25,8 @@ const NavbarComponent = () => {
                         <Navbar.Link href="/grow-program">
                             Grow Program
                         </Navbar.Link>
-                        <Navbar.Link href="/deskripsi-kelas">
-                            Deskripsi Kelas
-                        </Navbar.Link>
                         <Navbar.Link href="/about">About</Navbar.Link>
+                        <Navbar.Link href="/kelas-online">Kelas Online</Navbar.Link>
                     </Navbar.Collapse>
                 </Navbar>
             </Container>
