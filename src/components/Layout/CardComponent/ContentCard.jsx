@@ -34,7 +34,7 @@ export default function ContentCard() {
                             <p className="font-semibold">1:00</p>
                         </div>
                     </p>
-                    <p className="dark:text-gray-400 text-black mt-4">
+                    <p className="dark:text-gray-400 mt-4 text-black">
                         <div className="flex justify-between">
                             <div className="videos flex gap-2">
                                 <div className="h-[30px] w-[30px] rounded-full border-2 bg-white pl-[2px] pt-[2px]">
@@ -54,7 +54,7 @@ export default function ContentCard() {
                                     </svg>
                                 </div>
                                 <p className="mt-1 font-semibold">
-                                Menentukan Tema Design
+                                    Menentukan Tema Design
                                 </p>
                             </div>
                             <p className="font-semibold">3:00</p>
@@ -63,9 +63,7 @@ export default function ContentCard() {
                 </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
-                <Accordion.Title>
-                Praktik UI/UX
-                </Accordion.Title>
+                <Accordion.Title>Praktik UI/UX</Accordion.Title>
                 <Accordion.Content>
                     <p className="dark:text-gray-400 mb-2 text-black">
                         <div className="flex justify-between">
@@ -86,14 +84,12 @@ export default function ContentCard() {
                                         />
                                     </svg>
                                 </div>
-                                <p className="mt-1 font-semibold">
-                                    User Flow
-                                </p>
+                                <p className="mt-1 font-semibold">User Flow</p>
                             </div>
                             <p className="font-semibold">2:00</p>
                         </div>
                     </p>
-                    <p className="dark:text-gray-400 text-black mt-4">
+                    <p className="dark:text-gray-400 mt-4 text-black">
                         <div className="flex justify-between">
                             <div className="videos flex gap-2">
                                 <div className="h-[30px] w-[30px] rounded-full border-2 bg-white pl-[2px] pt-[2px]">
@@ -112,14 +108,12 @@ export default function ContentCard() {
                                         />
                                     </svg>
                                 </div>
-                                <p className="mt-1 font-semibold">
-                                Wireframe
-                                </p>
+                                <p className="mt-1 font-semibold">Wireframe</p>
                             </div>
                             <p className="font-semibold">10:00</p>
                         </div>
                     </p>
-                    <p className="dark:text-gray-400 text-black mt-4">
+                    <p className="dark:text-gray-400 mt-4 text-black">
                         <div className="flex justify-between">
                             <div className="videos flex gap-2">
                                 <div className="h-[30px] w-[30px] rounded-full border-2 bg-white pl-[2px] pt-[2px]">
@@ -138,9 +132,7 @@ export default function ContentCard() {
                                         />
                                     </svg>
                                 </div>
-                                <p className="mt-1 font-semibold">
-                               UI Desain
-                                </p>
+                                <p className="mt-1 font-semibold">UI Desain</p>
                             </div>
                             <p className="font-semibold">15:00</p>
                         </div>
@@ -148,11 +140,9 @@ export default function ContentCard() {
                 </Accordion.Content>
             </Accordion.Panel>
             <Accordion.Panel>
-                <Accordion.Title>
-                    Closing UI/UX
-                </Accordion.Title>
+                <Accordion.Title>Closing UI/UX</Accordion.Title>
                 <Accordion.Content>
-                    <p className="dark:text-gray-400 text-black mt-4">
+                    <p className="dark:text-gray-400 mt-4 text-black">
                         <div className="flex justify-between">
                             <div className="videos flex gap-2">
                                 <div className="h-[30px] w-[30px] rounded-full border-2 bg-white pl-[2px] pt-[2px]">
@@ -172,13 +162,12 @@ export default function ContentCard() {
                                     </svg>
                                 </div>
                                 <p className="mt-1 font-semibold">
-                                Prototyping
+                                    Prototyping
                                 </p>
                             </div>
                             <p className="font-semibold">10:00</p>
                         </div>
                     </p>
-                   
                 </Accordion.Content>
             </Accordion.Panel>
         </Accordion>

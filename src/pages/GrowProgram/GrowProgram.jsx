@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import PartnerSection from "../../components/Layout/PartnerSection/PartnerSection";
 import { Container } from "../../components/core/Grid";
-import "./style.css";
+import "./grow.style.css";
 import KelasCard from "../KelasPage/KelasCard";
 
 const titleTag = "EduGrow.id";
@@ -16,8 +16,9 @@ export default function GrowProgram() {
                 <meta name="title" content={titleTag} />
                 <meta name="description" content={metaDesc} />
             </Helmet>
+
             <Container>
-                <section className="mx-0 my-12 grid gap-2 max-[350px]:mx-4">
+                <section className="my-12 space-y-2">
                     <p className="font-color font-semibold">
                         #BelajarDariAhlinya
                     </p>

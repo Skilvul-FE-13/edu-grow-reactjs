@@ -13,12 +13,12 @@
     color: #3a5088 !important;
     border: 2px solid #3a5088 !important;
 }
-svg {
-    color : #3A5088;
-}
+/* svg {
+    color: #3a5088;
+} */
 
 @media screen and (max-width: 425px) {
-  .question{
-    height: 36px;
-  }
+    .question {
+        height: 36px;
+    }
 }

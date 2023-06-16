@@ -5,6 +5,7 @@ import PartnerSection from "../../components/Layout/PartnerSection/PartnerSectio
 import AboutReason from "./AboutReason";
 import AboutTim from "./AboutTim";
 import CardTim from "./CardTim";
+import "./styleAbout.css";
 
 const titleTag = "About | EduGrow.id";
 const metaDesc = "Majukan Bangsa";

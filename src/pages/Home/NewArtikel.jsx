@@ -1,6 +1,6 @@
 import { Button } from "flowbite-react";
 import { HiOutlineArrowRight, HiOutlineArrowLeft } from "react-icons/hi";
-import "./style.css";
+import "./home.style.css";
 
 export default function NewArtikel() {
     return (

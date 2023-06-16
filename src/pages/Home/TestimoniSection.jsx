@@ -1,5 +1,5 @@
 import { Card } from "flowbite-react";
-import "./style.css";
+import "./home.style.css";
 
 export default function TestimoniSection() {
     return (

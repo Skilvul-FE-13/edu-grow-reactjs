@@ -1,5 +1,5 @@
 import { Button } from "flowbite-react";
-import "./style.css";
+import "./home.style.css";
 
 export default function HomeKeuntungan() {
     return (

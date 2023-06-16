@@ -1,7 +1,8 @@
 const src = "https://www.youtube.com/embed/yNDgFK2Jj1E";
 const VideoComponent = () => {
     return (
-        <iframe className="my-8 dark:border-gray-700 rounded-lg border border-gray-200 max-sm:w-full"
+        <iframe
+            className="dark:border-gray-700 my-8 rounded-lg border border-gray-200 max-sm:w-full"
             width="560"
             height="315"
             src={src}
