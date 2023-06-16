@@ -23,12 +23,6 @@
     height: 84px;
 }
 
-.size-card {
-    align-items: center;
-    width: 560px;
-    height: 354px;
-}
-
 .image-container {
     display: flex;
     justify-content: center;

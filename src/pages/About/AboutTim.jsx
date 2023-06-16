@@ -1,5 +1,4 @@
 import "./styleAbout.css";
-import { Card } from "flowbite-react";
 
 export default function AboutTim() {
     return (
@@ -12,7 +11,7 @@ export default function AboutTim() {
                     <h1 className="txt-scnd text-center text-5xl font-extrabold">
                         Tim Kami
                     </h1>
-                    <p className="text-center text-base font-normal text-gray-500">
+                    <p className="first-letter: text-center text-base font-normal text-gray-500">
                         EduGrow diisi oleh berbagai macam orang dengan berbagai
                         macam latarbelakang dan keahlian dibidang masing-masing.
                         Kami terbuka untuk berbagai macam talenta agar terus
