@@ -27,9 +27,9 @@ export default function CardTim() {
                             chronological order.
                         </p>
                         <div className="flex flex-row justify-center gap-4">
-                            <img src="/public/images/Social icon-twitter.svg" />
-                            <img src="/public/images/Social icon-linkedin.svg" />
-                            <img src="/public/images/Social icon-github.svg" />
+                            <img src="/images/Social icon-twitter.svg" />
+                            <img src="/images/Social icon-linkedin.svg" />
+                            <img src="/images/Social icon-github.svg" />
                         </div>
                     </Card>
 
@@ -54,9 +54,9 @@ export default function CardTim() {
                             chronological order.
                         </p>
                         <div className="flex flex-row justify-center gap-4">
-                            <img src="/public/images/Social icon-twitter.svg" />
-                            <img src="/public/images/Social icon-linkedin.svg" />
-                            <img src="/public/images/Social icon-github.svg" />
+                            <img src="/images/Social icon-twitter.svg" />
+                            <img src="/images/Social icon-linkedin.svg" />
+                            <img src="/images/Social icon-github.svg" />
                         </div>
                     </Card>
 
@@ -81,9 +81,9 @@ export default function CardTim() {
                             chronological order.
                         </p>
                         <div className="flex flex-row justify-center gap-4">
-                            <img src="/public/images/Social icon-twitter.svg" />
-                            <img src="/public/images/Social icon-linkedin.svg" />
-                            <img src="/public/images/Social icon-github.svg" />
+                            <img src="/images/Social icon-twitter.svg" />
+                            <img src="/images/Social icon-linkedin.svg" />
+                            <img src="/images/Social icon-github.svg" />
                         </div>
                     </Card>
 
@@ -108,9 +108,9 @@ export default function CardTim() {
                             chronological order.
                         </p>
                         <div className="flex flex-row justify-center gap-4">
-                            <img src="/public/images/Social icon-twitter.svg" />
-                            <img src="/public/images/Social icon-linkedin.svg" />
-                            <img src="/public/images/Social icon-github.svg" />
+                            <img src="/images/Social icon-twitter.svg" />
+                            <img src="/images/Social icon-linkedin.svg" />
+                            <img src="/images/Social icon-github.svg" />
                         </div>
                     </Card>
                 </div>
