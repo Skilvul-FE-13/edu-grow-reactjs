@@ -1,8 +1,30 @@
+/* eslint-disable no-unused-vars */
+import { useContext, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { Button, Navbar } from "flowbite-react";
 import "./style.css";
 import { Container } from "../../core/Grid";
+import { AuthContext } from "../../../utils/Auth";
 
 const NavbarComponent = () => {
+    const { isLoggedIn, setIsLoggedIn } = useContext(AuthContext);
+    const navigate = useNavigate();
+
+    const handleLogout = () => {
+        sessionStorage.removeItem("rememberMe");
+        setIsLoggedIn(false);
+
+        navigate("/login");
+    };
+
+    const handleButtonClick = () => {
+        if (isLoggedIn) {
+            handleLogout();
+        } else {
+            navigate("/login");
+        }
+    };
+
     return (
         <div className="nav">
             <Container>
@@ -15,8 +37,12 @@ const NavbarComponent = () => {
                         />
                     </Navbar.Brand>
                     <div className="flex md:order-2">
-                        <Button href="/login" className="btn-login">
-                            Masuk
+                        <Button
+                            href={isLoggedIn ? "/" : "/login"}
+                            className="btn-login"
+                            onClick={handleButtonClick}
+                        >
+                            {isLoggedIn ? "Keluar" : "Masuk"}
                         </Button>
                         <Navbar.Toggle />
                     </div>
@@ -28,9 +54,9 @@ const NavbarComponent = () => {
                             Grow Program
                         </Navbar.Link>
                         <Navbar.Link href="/about">About</Navbar.Link>
-                        <Navbar.Link href="/kelas-online">
+                        {/* <Navbar.Link href="/kelas-online">
                             Kelas Online
-                        </Navbar.Link>
+                        </Navbar.Link> */}
                     </Navbar.Collapse>
                 </Navbar>
             </Container>
