@@ -23,10 +23,10 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.grid {
+/* .grid {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
 .card-image {
     width: 84px;
@@ -38,10 +38,10 @@
     height: 365px;
 }
 
-.image-container {
+/* .image-container {
     display: flex;
     justify-content: start;
-}
+} */
 
 .size-card-testi {
     width: 380px;
