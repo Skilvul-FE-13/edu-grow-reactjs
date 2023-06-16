@@ -3,6 +3,9 @@ import { Helmet } from "react-helmet";
 import HomeCTA from "./HomeCTA";
 import PartnerSection from "../../components/Layout/PartnerSection/PartnerSection";
 import HomeKeuntungan from "./Keuntungan";
+import ReasonCard from "./ReasonCard";
+import TestimoniSection from "./TestimoniSection";
+import NewArtikel from "./NewArtikel";
 
 const titleTag = "Home | EduGrow.id";
 const metaDesc = "Majukan Bangsa";
@@ -18,7 +21,10 @@ export default function Home() {
 
             <HomeCTA />
             <PartnerSection variant={"primary"} />
+            <ReasonCard />
             <HomeKeuntungan />
+            <TestimoniSection />
+            <NewArtikel />
             <PartnerSection variant={"secondary"} />
         </Fragment>
     );

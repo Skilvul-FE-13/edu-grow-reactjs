@@ -13,3 +13,37 @@
 .txt-prmy {
     color: #3a5088;
 }
+
+.txt-scnd {
+    color: #222222;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-image {
+    width: 84px;
+    height: 84px;
+}
+
+.size-card {
+    width: 362px;
+    height: 365px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: start;
+}
+
+.size-card-testi {
+    width: 380px;
+    height: 534px;
+}

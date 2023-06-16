@@ -1,11 +1,13 @@
 import { Fragment } from "react";
 import { Helmet } from "react-helmet";
-import LoginForm from "./LoginForm";
+import DeskripsiKelasCTA from "./DeskripsiKelasCTA";
+import Question from "./Question";
+import KontenKelas from "./KontenKelas";
 
-const titleTag = "Login | EduGrow.id";
+const titleTag = "Deskripsi Kelas | EduGrow.id";
 const metaDesc = "Majukan Bangsa";
 
-export default function Login() {
+export default function DeskripsiKelas() {
     return (
         <Fragment>
             <Helmet>
@@ -13,8 +15,9 @@ export default function Login() {
                 <meta name="title" content={titleTag} />
                 <meta name="description" content={metaDesc} />
             </Helmet>
-
-            <LoginForm />
+            <DeskripsiKelasCTA />
+            <KontenKelas />
+            <Question />
         </Fragment>
     );
 }
