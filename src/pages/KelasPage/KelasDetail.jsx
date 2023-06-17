@@ -86,10 +86,10 @@ const KelasDetail = () => {
                                     pengalaman belajar di EduGrow
                                 </p>
                                 <div className="button">
-                                    <Link to="">
+                                    <Link to="/login">
                                         <Button
-                                            className="btn-join font-semibold"
-                                            size={"xl"}
+                                            className="btn-join w-52 font-semibold"
+                                            // size={"xl"}
                                         >
                                             Gabung Sekarang
                                         </Button>

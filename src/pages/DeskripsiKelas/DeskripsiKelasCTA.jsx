@@ -48,7 +48,11 @@ export default function DeskripsiKelasCTA() {
                         di EduGrow
                     </p>
                     <div className="button">
-                        <Button className="btn-join font-semibold" size={"xl"}>
+                        <Button
+                            href="/login"
+                            className="btn-join font-semibold"
+                            size={"xl"}
+                        >
                             Gabung Sekarang
                         </Button>
                     </div>
